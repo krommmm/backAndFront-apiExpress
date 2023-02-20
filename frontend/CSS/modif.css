@@ -1,0 +1,75 @@
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.bouton {
+    width: 100px;
+    color: black;
+    padding: 10px;
+    background-color: orange;
+    border: 0px solid black;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.bouton:hover {
+    filter: brightness(0.9);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.profil_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.profil {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding:10px;
+    margin:10px;
+    box-shadow: 2px 1px 1px 1px grey;
+    transition:700ms;
+    width:20vw;
+}
+
+.profil:hover{
+    box-shadow: 10px 5px 5px 5px grey;
+}
+
+h2 {
+    color: red;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+.para {
+    color: green;
+    font-weight: 600;
+}
+
+.imageUrl {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
