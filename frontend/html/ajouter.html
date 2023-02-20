@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>ajouter un truc</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+    <link rel="shortcut icon" type="image/png" href="../assets/api.jpg" />
+  </head>
+  <body>
+    <div class="ajout">
+      <form onsubmit="traitementFormularie(event)">
+        <label for="title">Titre:</label>
+        <input type="text" id="title" name="title" />
+
+        <label for="description">Description:</label>
+        <input type="text" id="describe" name="describe" />
+
+        <label for="imageUrl">Image:</label>
+        <input type="text" id="image" name="image" />
+
+        <button type="button" class="bouton" id="boutonAdd">valider</button>
+        <a href="../index.html"><button type="button" class="bouton">retour</button></a>
+      </form>
+    </div>
+  </body>
+  <script src="../JS/app.js"></script>
+</html>
